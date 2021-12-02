@@ -2103,6 +2103,12 @@ input, select, textarea {
 			display: block;
 		}
 
+		.image.top {
+			float: left;
+			margin: 0 0 0 0;
+			top: 0em;
+		}
+
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
@@ -2118,8 +2124,12 @@ input, select, textarea {
 		.image.left, .image.right {
 			max-width: 40%;
 		}
+		
+		.image.top {
+			max-width: 100%;
+		}
 
-			.image.left img, .image.right img {
+			.image.left img, .image.right img, .image.top img {
 				width: 100%;
 			}
 
